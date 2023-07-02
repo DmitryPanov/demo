@@ -12,4 +12,11 @@ public class SuperController {
     public String sayHello(String name) {
         return "Hello " + name;
     }
+
+    @GetMapping()
+    public String newConflict(String name) {
+        return "Hello " + name;
+    }
+
+
 }
