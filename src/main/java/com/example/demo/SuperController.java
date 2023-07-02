@@ -12,4 +12,11 @@ public class SuperController {
     public String sayHello(String superName) {
         return "Hello " + superName + "!!!";
     }
+    @GetMapping()
+    public String newConflict(String conflict) {
+        System.out.println("conflict = " + conflict);
+        //master branch
+        return "Hello " + conflict;
+    }
+
 }
