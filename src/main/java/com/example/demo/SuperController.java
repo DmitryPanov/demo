@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SuperController {
 
     @GetMapping()
-    public String sayHello(String name) {
-        return "Hello " + name;
+    public String sayHello(String superName) {
+        return "Hello " + superName + "!!!";
     }
 }
