@@ -20,4 +20,9 @@ public class SuperController {
         return "Hello " + conflict;
     }
 
+    @GetMapping
+    public String conflictTwo(String conflictTwo){
+        return "Master branch " + conflictTwo;
+    }
+
 }
