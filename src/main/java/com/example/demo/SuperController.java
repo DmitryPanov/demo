@@ -24,5 +24,9 @@ public class SuperController {
     public String conflictTwo(String conflictTwo){
         return "Master branch " + conflictTwo;
     }
+    @GetMapping
+    public String conflictThree(String conflictThree){
+        return "Master branch " + conflictThree + "!!!";
+    }
 
 }
